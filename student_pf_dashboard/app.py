@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Charger le DataFrame
-df = pd.read_csv('/Users/chagaiboumahamadoumaiga/Desktop/shinyDashboard/basic-app/StudentPerformanceFactors.csv')
+df = pd.read_csv('/Users/chagaiboumahamadoumaiga/Desktop/shinyDashboard/student_pf_dashboard/StudentPerformanceFactors.csv')
 
 # Variables qualitatives et numériques pour les sélections
 variables_categories = df.select_dtypes(include='object').columns.tolist()
